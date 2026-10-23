@@ -3,22 +3,24 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>OK德州</title>
+<title>OK德州｜Telegram 德州扑克 · 真人实时结算 · 可验证公平的德州扑克联盟</title>
 <link rel="canonical" href="https://ok.poker/">
-<meta name="description" content="OK德州：Telegram 里的真人实时结算德州扑克。免注册、免实名、U 充 U 提，最高同开 50+ 桌，每一手牌可验证。Telegram 最大的德州扑克联盟，招商 @okpkzs。">
+<meta name="description" content="OK德州是 Telegram 上的真人实时结算德州扑克平台，长牌、短牌、鱿鱼多种德州扑克玩法，最高同开 50+ 桌，每一手牌都可公开验证。Telegram 最大的德州扑克联盟，招募德州扑克俱乐部。">
+<meta name="keywords" content="德州扑克,Telegram德州扑克,TG德州扑克,在线德州扑克,德州扑克俱乐部,德州扑克联盟,短牌德州,OK德州,OK德州扑克">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#070908">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="OK德州">
-<meta property="og:title" content="OK德州 · Telegram 最大的德州扑克联盟">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:title" content="OK德州 · Telegram 德州扑克 · 最大的德州扑克联盟">
 <meta property="og:description" content="最高同开 50+ 桌 · 在营俱乐部超百家 · 公平性验证，如有作假送 1000 万 U。招商 @okpkzs">
 <meta property="og:url" content="https://ok.poker/">
 <meta property="og:image" content="https://ok.poker/og.jpg">
 <meta property="og:image:width" content="800">
 <meta property="og:image:height" content="420">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="img/logo-96.jpg">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Barlow:wght@500;600&family=JetBrains+Mono:wght@400&display=swap"><style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://ok.poker/#org", "name": "OK德州", "alternateName": ["OK德州扑克", "OK Poker", "OK联盟"], "url": "https://ok.poker/", "logo": "https://ok.poker/img/logo-320.jpg", "description": "Telegram 上的真人实时结算德州扑克平台，Telegram 最大的德州扑克联盟。", "sameAs": ["https://t.me/okdz", "https://t.me/okpkzs", "https://t.me/okpk"]}, {"@type": "WebSite", "@id": "https://ok.poker/#website", "url": "https://ok.poker/", "name": "OK德州", "inLanguage": "zh-CN", "publisher": {"@id": "https://ok.poker/#org"}}, {"@type": "SoftwareApplication", "name": "OK德州", "applicationCategory": "GameApplication", "operatingSystem": "Telegram", "url": "https://t.me/okdz", "inLanguage": "zh-CN", "description": "Telegram 小程序里的真人德州扑克，支持长牌、短牌、鱿鱼多种德州扑克玩法，每一手牌可公开验证。", "publisher": {"@id": "https://ok.poker/#org"}}]}</script>
+<link rel="icon" href="img/logo-96.jpg"><style>
 /* Layout: a dark stage where the app's own verification screens carry the argument. Text column + framed Telegram Mini App screen, alternating. Single dark look by choice. */
 :root {
   --bg: #070908;          /* page */
@@ -32,9 +34,9 @@
   --glass: linear-gradient(180deg, rgba(255,255,255,.055), rgba(255,255,255,.012));
   --glass-line: rgba(160, 230, 120, .16);
   --tg: #2aabee;          /* Telegram blue, only on Telegram things */
-  --sans: "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", system-ui, sans-serif;
-  --latin: "Barlow", "Helvetica Neue", Arial, sans-serif;
-  --mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --sans: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", "Source Han Sans SC", system-ui, sans-serif;
+  --latin: "SF Pro Display", "Helvetica Neue", "Segoe UI", Roboto, Arial, sans-serif;
+  --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
   color-scheme: dark;
 }
 * { box-sizing: border-box; }
@@ -107,6 +109,8 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
   .ph.r { transform: translateX(12%) rotateY(-18deg) scale(.82); }
 }
 @media (prefers-reduced-motion: reduce) { .crown { animation: none; } }
+.mb { display: none; }
+@media (max-width: 560px) { .mb { display: inline; } }
 
 /* section heads */
 .sec { padding-block: 130px 0; }
@@ -278,16 +282,16 @@ footer .wrap { padding-block: 28px; display: flex; flex-wrap: wrap; justify-cont
     <div class="aura" aria-hidden="true"></div>
     <div class="floor" aria-hidden="true"></div>
     <div class="wrap">
-      <img class="crown" src="img/logo-320.jpg" alt="OK德州">
-      <h1>打开 Telegram，<br><em>真人德州</em>即刻开局</h1>
+      <img class="crown" src="img/logo-320.jpg" alt="OK德州扑克 Logo">
+      <h1>打开 Telegram，<br><em>真人德州扑克</em><br class="mb">即刻开局</h1>
       <p class="sub">OK德州是一款深度结合 Web3 技术的真人实时结算德州扑克竞技平台。免注册、免实名、U 充 U 提，长牌、短牌、鱿鱼多种玩法，最高同开 50+ 桌，每一手牌公开可验。</p>
       <div class="ctas">
         <a class="tgbtn big" data-link="bot" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.6 3.3 2.9 10.5c-1.3.5-1.3 1.2-.2 1.6l4.8 1.5 1.8 5.6c.2.6.1.9.8.9.5 0 .7-.2 1-.5l2.3-2.2 4.8 3.5c.9.5 1.5.2 1.7-.8l3.1-14.7c.3-1.3-.5-1.9-1.4-1.5ZM8.9 13.3l9.4-5.9c.5-.3.9-.1.5.2l-8 7.3-.3 3.4-1.6-5Z"/></svg>在 Telegram 打开</a>
         <a class="btn" href="#perks">俱乐部合作</a>
       </div>
       <div class="stage">
-        <figure class="ph l"><img src="img/verify-center.jpg" alt="验证中心：整副牌验证结果"></figure>
-        <figure class="ph c"><img src="img/lobby.jpg" alt="OK德州 俱乐部大厅：一排排正在进行的长牌、短牌牌桌"></figure>
+        <figure class="ph l"><img src="img/verify-center.jpg" alt="OK德州扑克验证中心：整副牌验证结果"></figure>
+        <figure class="ph c"><img src="img/lobby.jpg" alt="OK德州扑克俱乐部大厅：一排排正在进行的长牌、短牌德州扑克牌桌"></figure>
         <figure class="ph r"><img src="img/bot-profile.jpg" alt="案例 Bot @okdz 的 Telegram 资料页"></figure>
       </div>
     </div>
@@ -306,7 +310,7 @@ footer .wrap { padding-block: 28px; display: flex; flex-wrap: wrap; justify-cont
     <div class="wrap glayout">
       <div class="gtext">
         <span class="label">产品 · 多种玩法</span>
-        <h2>多种玩法，<br>最高同开 <em>50+</em> 桌。</h2>
+        <h2>德州扑克多种玩法，<br>最高同开 <em>50+</em> 桌。</h2>
         <p class="lead">联盟互通，玩家共享，桌桌满座是常态。长牌、短牌、鱿鱼游戏同时在开，更多玩法持续上线。</p>
         <ul class="gl">
           <li><b>长牌</b><span>经典无限注德州</span></li>
@@ -315,7 +319,7 @@ footer .wrap { padding-block: 28px; display: flex; flex-wrap: wrap; justify-cont
           <li class="more"><b>更多玩法持续上线</b></li>
         </ul>
       </div>
-      <figure class="ph solo"><img src="img/lobby-full.jpg" alt="OK德州 俱乐部大厅：多张 8/8 满座的长牌和短牌牌桌" loading="lazy"></figure>
+      <figure class="ph solo"><img src="img/lobby-full.jpg" alt="OK德州扑克俱乐部大厅：多张 8/8 满座的长牌和短牌德州扑克牌桌" loading="lazy"></figure>
     </div>
   </section>
 
@@ -450,7 +454,7 @@ footer .wrap { padding-block: 28px; display: flex; flex-wrap: wrap; justify-cont
 
 <footer>
   <div class="wrap">
-    <span>© <span id="year">2026</span> OK德州</span>
+    <span>© <span id="year">2026</span> OK德州 · Telegram 德州扑克</span>
     <span>ok.poker</span>
   </div>
 </footer>

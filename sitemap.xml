@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://ok.poker/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image><image:loc>https://ok.poker/img/lobby.jpg</image:loc><image:title>OK德州扑克俱乐部大厅</image:title></image:image>
+    <image:image><image:loc>https://ok.poker/img/verify-center.jpg</image:loc><image:title>OK德州扑克验证中心</image:title></image:image>
+  </url>
+</urlset>
